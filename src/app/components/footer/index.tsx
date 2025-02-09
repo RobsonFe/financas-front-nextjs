@@ -28,11 +28,7 @@ const Footer: React.FC = () => {
                 Politica de Privacidade
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Termos de Serviços
-              </a>
-            </li>
+            
             <li>
               <a
                 href="mailto:robson-ferreiradasilva@hotmail.com"
@@ -45,7 +41,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="text-sm flex flex-col text-gray-500 sm:text-center dark:text-gray-400">
+        <span className="text-sm flex justify-center items-center flex-col text-gray-500 sm:text-center dark:text-gray-400">
           © {anoAtual} - Developed by {" Robson Ferreira "}
           <a
             href="https://github.com/RobsonFe"
