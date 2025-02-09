@@ -57,7 +57,7 @@ const Profile: React.FC = () => {
             <a
               href="mailto:robson-ferreiradasilva@hotmail.com"
               target="_blank"
-              className="bg-primary text-text-dark px-3 py-2 no-underline rounded-lg outline-none border-none text-lg font-bold flex justify-center items-center whitespace-nowrap flex-1 min-w-[15rem] max-w-full hover:underline"
+              className="bg-transparent text-text-dark px-3 py-2 no-underline rounded-lg outline-none border-none text-lg font-bold flex justify-center items-center whitespace-nowrap flex-1 min-w-[15rem] max-w-full hover:underline"
             >
               Entre em Contato
             </a>
