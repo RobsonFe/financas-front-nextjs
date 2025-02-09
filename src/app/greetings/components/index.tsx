@@ -50,6 +50,8 @@ const GreetingsComponent: React.FC = () => {
         </svg>
       </a>
 
+      <hr className="my-6 border-t border-gray-200 dark:border-gray-800 shadow-sm" />
+
       <Profile />
 
       <div className="flex justify-center space-x-4 mt-6">

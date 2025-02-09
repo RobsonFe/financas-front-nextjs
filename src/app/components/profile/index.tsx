@@ -17,7 +17,7 @@ const Profile: React.FC = () => {
             Robson Ferreira
           </h2>
           <p className="text-[clamp(1rem,1.75vw,1.1rem)] font-normal my-1">
-            Desenvolvedor de Software na{" "}
+            Desenvolvedor na{" "}
             <a
               href="https://www.ativosprecatorios.com.br/"
               target="_blank"
