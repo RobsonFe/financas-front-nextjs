@@ -34,21 +34,21 @@ const Profile: React.FC = () => {
             <a
               href="https://docs.spring.io/spring-boot/index.html"
               target="_blank"
-              className="rounded-lg px-2 py-1 text-sm bg-chip-bg transition-all border border-border font-medium hover:underline"
+              className="rounded-lg px-2 py-1 text-sm transition-all border hover:border-[#171717] dark:hover:border-[#e1e1e1] font-medium hover:underline"
             >
               Spring Boot
             </a>
             <a
               href="https://nestjs.com/"
               target="_blank"
-              className="rounded-lg px-2 py-1 text-sm bg-chip-bg transition-all border border-border font-medium hover:underline"
+              className="rounded-lg px-2 py-1 text-sm transition-all border hover:border-[#171717] dark:hover:border-[#e1e1e1] font-medium hover:underline"
             >
               NestJs
             </a>
             <a
               href="https://www.djangoproject.com/"
               target="_blank"
-              className="rounded-lg px-2 py-1 text-sm bg-chip-bg transition-all border border-border font-medium hover:underline"
+              className="rounded-lg px-2 py-1 text-sm  transition-all border hover:border-[#171717] dark:hover:border-[#e1e1e1] font-medium hover:underline"
             >
               Django
             </a>

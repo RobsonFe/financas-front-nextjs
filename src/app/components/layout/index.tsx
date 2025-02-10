@@ -1,11 +1,12 @@
-import { AppSidebar } from "@/components/app-sidebar"
-import { Separator } from "@/components/ui/separator"
+import { AppSidebar } from "@/app/components/app-sidebar"
+import { Separator } from "@/app/components/ui/separator"
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@/components/ui/sidebar"
+} from "@/app/components/ui/sidebar"
 import Footer from "../footer"
+import Navbar from "../navbar"
 
 interface LayoutProps {
   children: React.ReactNode
@@ -24,6 +25,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
           <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
+          <Navbar />
           <main>{children}</main>
         </div>
         <Footer />

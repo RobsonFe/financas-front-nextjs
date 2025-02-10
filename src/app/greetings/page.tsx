@@ -1,10 +1,11 @@
 import Profile from "@/app/components/profile"
 import React from "react"
+import Icones from "../components/icones"
 
 const Greetings: React.FC = () => {
   return (
     <div className="max-w-2xl mx-auto text-center">
-      <h2 className="text-4xl font-extrabold dark:text-white">
+      <h2 className="text-4xl font-extrabold ">
         Bem Vindos ao Sistema de Finanças
       </h2>
       <p className="my-4 text-lg text-gray-500">
@@ -52,33 +53,7 @@ const Greetings: React.FC = () => {
       
       <hr className="my-6 border-t border-gray-200 dark:border-gray-800 shadow-sm" />
       <Profile />
-
-      <div className="flex justify-center space-x-4 mt-6">
-        <a
-          href="https://github.com/RobsonFe"
-          target="_blank"
-          className="text-gray-600 hover:text-gray-800"
-        >
-          <i className="fab fa-github fa-2x"></i>
-          <span className="sr-only">GitHub</span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/robson-ferreira-508247134/"
-          target="_blank"
-          className="text-gray-600 hover:text-gray-800"
-        >
-          <i className="fab fa-linkedin fa-2x"></i>
-          <span className="sr-only">LinkedIn</span>
-        </a>
-        <a
-          href="https://www.instagram.com/rob_ferreira88/"
-          target="_blank"
-          className="text-gray-600 hover:text-gray-800"
-        >
-          <i className="fab fa-instagram fa-2x"></i>
-          <span className="sr-only">Instagram</span>
-        </a>
-      </div>
+      <Icones/>
     </div>
   )
 }
