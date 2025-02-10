@@ -7,9 +7,9 @@ const Icones: React.FC = () => {
         <a
           href="https://github.com/RobsonFe"
           target="_blank"
-          className="text-gray-600 hover:text-gray-800"
+          className="text-gray-600 hover:text-black"
         >
-          <FaGithub className='w-[32px] h-[32px]'/>
+          <FaGithub className='w-[32px] h-[32px] hover:bg-[#1f2937] border-none rounded-full'/>
           <span className="sr-only">GitHub</span>
         </a>
         <a
@@ -17,15 +17,15 @@ const Icones: React.FC = () => {
           target="_blank"
           className="text-gray-600 hover:text-gray-800"
         >
-         <FaLinkedin className='w-[32px] h-[32px]' />
+         <FaLinkedin className='w-[32px] h-[32px] hover:bg-[#0077B5]' />
           <span className="sr-only">LinkedIn</span>
         </a>
         <a
           href="https://www.instagram.com/rob_ferreira88/"
           target="_blank"
-          className="text-gray-600 hover:text-gray-800"
+          className="text-gray-600 hover:text-black"
         >
-          <FaInstagram className='w-[32px] h-[32px]' />
+          <FaInstagram className='w-[32px] h-[32px] hover:bg-[#E1306C] border-none rounded-md' />
           <span className="sr-only">Instagram</span>
         </a>
       </div>

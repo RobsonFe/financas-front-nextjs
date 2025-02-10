@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="text-lg font-medium text-neutral-900 dark:text-white">
-            Finanças
+            FiNotion
           </div>
 
           <button
